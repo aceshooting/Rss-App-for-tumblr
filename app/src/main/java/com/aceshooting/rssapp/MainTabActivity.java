@@ -338,9 +338,9 @@ public class MainTabActivity extends TabActivity {
 		
 		Activity activity = getCurrentActivity();
 		
-		if (activity != null) {
+		/*if (activity != null) {
 			activity.onPrepareOptionsMenu(null);
-		}
+		}*/
 	}
 	
 	public boolean isProgressBarVisible() {

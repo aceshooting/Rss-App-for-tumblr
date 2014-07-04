@@ -31,6 +31,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.preference.PreferenceManager;
+
 import com.aceshooting.rssapp.service.RefreshService;
 
 public class BootCompletedBroadcastReceiver extends BroadcastReceiver {

@@ -25,6 +25,31 @@
 
 package com.aceshooting.rssapp.service;
 
+import android.app.IntentService;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.database.Cursor;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.net.Uri;
+import android.os.IBinder;
+import android.os.SystemClock;
+import android.preference.PreferenceManager;
+import android.util.Xml;
+
+import com.aceshooting.rssapp.BASE64;
+import com.aceshooting.rssapp.MainTabActivity;
+import com.aceshooting.rssapp.R;
+import com.aceshooting.rssapp.Strings;
+import com.aceshooting.rssapp.handler.RSSHandler;
+import com.aceshooting.rssapp.provider.FeedData;
+
 import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
@@ -43,30 +68,6 @@ import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
-
-import android.app.IntentService;
-import android.app.Notification;
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.ContentValues;
-import android.content.Context;
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.database.Cursor;
-import android.net.ConnectivityManager;
-import android.net.NetworkInfo;
-import android.net.Uri;
-import android.os.IBinder;
-import android.os.SystemClock;
-import android.preference.PreferenceManager;
-import android.util.Xml;
-import com.aceshooting.rssapp.BASE64;
-import com.aceshooting.rssapp.MainTabActivity;
-import com.aceshooting.rssapp.R;
-import com.aceshooting.rssapp.Strings;
-import com.aceshooting.rssapp.handler.RSSHandler;
-import com.aceshooting.rssapp.provider.FeedData;
 
 public class FetcherService extends IntentService {
 	private static final int FETCHMODE_DIRECT = 1;

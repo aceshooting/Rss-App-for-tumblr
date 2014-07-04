@@ -25,14 +25,14 @@
 
 package com.aceshooting.rssapp.provider;
 
-import java.io.File;
-
-import com.aceshooting.rssapp.handler.PictureFilenameFilter;
-
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.provider.BaseColumns;
+
+import com.aceshooting.rssapp.handler.PictureFilenameFilter;
+
+import java.io.File;
 
 public class FeedData {
 	public static final String CONTENT = "content://";

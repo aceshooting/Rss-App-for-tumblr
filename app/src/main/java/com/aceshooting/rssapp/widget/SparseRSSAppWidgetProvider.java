@@ -37,6 +37,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.view.View;
 import android.widget.RemoteViews;
+
 import com.aceshooting.rssapp.MainTabActivity;
 import com.aceshooting.rssapp.R;
 import com.aceshooting.rssapp.Strings;

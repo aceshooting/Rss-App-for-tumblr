@@ -25,9 +25,6 @@
 
 package com.aceshooting.rssapp;
 
-import java.io.File;
-import java.io.FilenameFilter;
-
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -43,7 +40,6 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
@@ -60,9 +56,8 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import com.aceshooting.rssapp.provider.FeedData;
-import com.aceshooting.rssapp.provider.OPML;
 import com.aceshooting.rssapp.service.RefreshService;
 
 public class RSSOverview extends ListActivity implements Requeryable {

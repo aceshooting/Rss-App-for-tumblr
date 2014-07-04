@@ -28,6 +28,7 @@ package com.aceshooting.rssapp;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+
 import com.aceshooting.rssapp.service.FetcherService;
 
 public class RefreshBroadcastReceiver extends BroadcastReceiver {

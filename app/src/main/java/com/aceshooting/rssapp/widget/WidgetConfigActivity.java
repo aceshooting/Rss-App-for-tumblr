@@ -36,6 +36,7 @@ import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.view.View;
 import android.view.View.OnClickListener;
+
 import com.aceshooting.rssapp.R;
 import com.aceshooting.rssapp.provider.FeedData;
 

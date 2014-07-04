@@ -25,6 +25,21 @@
 
 package com.aceshooting.rssapp.handler;
 
+import android.content.ContentValues;
+import android.content.Context;
+import android.net.Uri;
+import android.preference.PreferenceManager;
+import android.text.Html;
+
+import com.aceshooting.rssapp.Strings;
+import com.aceshooting.rssapp.provider.FeedData;
+import com.aceshooting.rssapp.provider.FeedDataContentProvider;
+import com.aceshooting.rssapp.service.FetcherService;
+
+import org.xml.sax.Attributes;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -40,20 +55,6 @@ import java.util.Locale;
 import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
-import org.xml.sax.helpers.DefaultHandler;
-
-import android.content.ContentValues;
-import android.content.Context;
-import android.net.Uri;
-import android.preference.PreferenceManager;
-import android.text.Html;
-import com.aceshooting.rssapp.Strings;
-import com.aceshooting.rssapp.provider.FeedData;
-import com.aceshooting.rssapp.provider.FeedDataContentProvider;
-import com.aceshooting.rssapp.service.FetcherService;
 
 public class RSSHandler extends DefaultHandler {
 	private static final String ANDRHOMBUS = "&#";

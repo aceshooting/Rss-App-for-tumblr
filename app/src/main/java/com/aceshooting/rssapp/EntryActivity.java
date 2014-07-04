@@ -25,8 +25,6 @@
 
 package com.aceshooting.rssapp;
 
-import java.util.Date;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -69,7 +67,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
+
 import com.aceshooting.rssapp.provider.FeedData;
+
+import java.util.Date;
 
 public class EntryActivity extends Activity {
 	/*

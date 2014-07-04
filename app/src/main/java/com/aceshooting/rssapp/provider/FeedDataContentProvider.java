@@ -25,8 +25,6 @@
 
 package com.aceshooting.rssapp.provider;
 
-import java.io.File;
-
 import android.content.ContentProvider;
 import android.content.ContentUris;
 import android.content.ContentValues;
@@ -42,7 +40,10 @@ import android.net.Uri;
 import android.os.Environment;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
+
 import com.aceshooting.rssapp.Strings;
+
+import java.io.File;
 
 public class FeedDataContentProvider extends ContentProvider {
 	private static final String FOLDER = Environment.getExternalStorageDirectory()+"/aceshooting/";

@@ -31,6 +31,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
+
 import com.aceshooting.rssapp.R;
 
 public class ColorPickerDialogPreference extends DialogPreference {

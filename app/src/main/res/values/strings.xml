@@ -238,4 +238,5 @@
     <string name="permission_writefeeds_description">Allows the application to write Ace Shooting feeds and entries.</string>
     <string name="rsswebsite">http://www.aceshooting.com/rss</string>
     <string name="rsswebsitename">Ace Shooting website</string>
+    <string name="crash_toast_text">The application has crashed, sending report to the developper</string>
 </resources>

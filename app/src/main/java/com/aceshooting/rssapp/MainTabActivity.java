@@ -25,8 +25,6 @@
 
 package com.aceshooting.rssapp;
 
-import java.util.Vector;
-
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.ActivityManager.RunningServiceInfo;
@@ -53,8 +51,13 @@ import android.view.Window;
 import android.widget.TabHost;
 import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TextView;
+
 import com.aceshooting.rssapp.provider.FeedData;
 import com.aceshooting.rssapp.service.FetcherService;
+
+import java.util.Vector;
+
+
 
 public class MainTabActivity extends TabActivity {
 	private static final int DIALOG_LICENSEAGREEMENT = 0;
@@ -102,8 +105,8 @@ public class MainTabActivity extends TabActivity {
 			setTheme(R.style.Theme_Light);
 		}
 		super.onCreate(savedInstanceState);
-		
-		// We need to display progress information
+
+        		// We need to display progress information
 		requestWindowFeature(Window.FEATURE_INDETERMINATE_PROGRESS);
 		
 		setContentView(R.layout.tabs);

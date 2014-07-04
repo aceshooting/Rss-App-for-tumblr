@@ -25,11 +25,11 @@
 
 package com.aceshooting.rssapp.handler;
 
+import com.aceshooting.rssapp.provider.FeedDataContentProvider;
+
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.regex.Pattern;
-
-import com.aceshooting.rssapp.provider.FeedDataContentProvider;
 
 public class PictureFilenameFilter implements FilenameFilter {
 	private static final String REGEX = "__[^\\.]*\\.[A-Za-z]*";

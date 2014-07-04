@@ -4,6 +4,9 @@ android {
     compileSdkVersion 15
     buildToolsVersion "20.0.0"
 
+    dependencies{
+        compile 'ch.acra:acra:4.5.0'
+    }
     defaultConfig {
         applicationId "com.aceshooting.rssapp"
         minSdkVersion 3

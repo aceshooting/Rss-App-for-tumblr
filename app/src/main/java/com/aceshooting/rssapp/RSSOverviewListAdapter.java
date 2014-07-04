@@ -25,10 +25,6 @@
 
 package com.aceshooting.rssapp;
 
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Vector;
-
 import android.app.Activity;
 import android.content.Context;
 import android.database.Cursor;
@@ -40,7 +36,12 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
+
 import com.aceshooting.rssapp.provider.FeedData;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Vector;
 
 public class RSSOverviewListAdapter extends ResourceCursorAdapter {
 	private static final String COUNT_UNREAD = "COUNT(*) - COUNT(readdate)";

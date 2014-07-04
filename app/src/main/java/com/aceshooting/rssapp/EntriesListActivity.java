@@ -25,12 +25,9 @@
 
 package com.aceshooting.rssapp;
 
-import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
 import android.app.ListActivity;
 import android.content.ContentUris;
 import android.content.ContentValues;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences.Editor;
 import android.database.Cursor;
@@ -53,6 +50,7 @@ import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+
 import com.aceshooting.rssapp.provider.FeedData;
 
 public class EntriesListActivity extends ListActivity implements Requeryable {

@@ -25,10 +25,6 @@
 
 package com.aceshooting.rssapp;
 
-import java.text.DateFormat;
-import java.util.Date;
-import java.util.Vector;
-
 import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
@@ -44,7 +40,12 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 import android.widget.ResourceCursorAdapter;
 import android.widget.TextView;
+
 import com.aceshooting.rssapp.provider.FeedData;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Vector;
 
 public class EntriesListAdapter extends ResourceCursorAdapter {
 	private static final int STATE_NEUTRAL = 0;

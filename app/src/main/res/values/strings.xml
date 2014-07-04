@@ -22,8 +22,8 @@
  
  
  Note for translators: only include the strings that differ from the 
- English version. Translations will only be included in the Sparse RSS 
- program, if they are licensed under the MIT license.
+ English version. Translations will only be included in the Ace Shooting
+ program, if they are licensed under the GPL v2 license.
  
 -->
 <resources>
@@ -233,9 +233,9 @@
     </string-array>
 
     <string name="permission_readfeeds">Read feed data</string>
-    <string name="permission_readfeeds_description">Allows the application to read Sparse RSS feeds and entries.</string>
+    <string name="permission_readfeeds_description">Allows the application to read Ace Shooting feeds and entries.</string>
     <string name="permission_writefeeds">Write feed data</string>
-    <string name="permission_writefeeds_description">Allows the application to write Sparse RSS feeds and entries.</string>
+    <string name="permission_writefeeds_description">Allows the application to write Ace Shooting feeds and entries.</string>
     <string name="rsswebsite">http://www.aceshooting.com/rss</string>
     <string name="rsswebsitename">Ace Shooting website</string>
 </resources>

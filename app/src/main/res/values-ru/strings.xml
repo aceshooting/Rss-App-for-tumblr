@@ -28,7 +28,7 @@
     <string name="menu_disablefeedsort">Завершить</string>
     <string name="menu_share">Отправить</string>
 
-    <string name="license_intro">This software is distributed under the MIT open source license and its source code is available under http://code.google.com/p/sparserss</string>
+    <string name="license_intro">This software is distributed under the GPL v2 open source license and its source code is available under https://github.com/aceshooting/Rss-App-for-tumblr.git</string>
     <string name="contributors"><u>Также участвовали &gt;&gt;</u></string>
     <string name="license_word"><u>&lt;&lt; Лицензия</u></string>
 
@@ -64,7 +64,7 @@
     <string name="settings_gestures_description">Перелистывать новости жестами</string>
 
     <string name="settings_refreshonopen">При запуске</string>
-    <string name="settings_refreshonopen_description">Обновлять все ленты при запуске Sparse rss</string>
+    <string name="settings_refreshonopen_description">Обновлять все ленты при запуске Ace Shooting</string>
 
     <string name="settings_overridewifionly">Не только по Wi-Fi</string>
     <string name="settings_overridewifionly_description">Разрешать принудительное обновление ленты с отметкой \"Только по Wi-Fi\" через сотовую сеть</string>
@@ -175,7 +175,7 @@
     </string-array>
     
     <string name="permission_readfeeds">Разрешить чтение</string>
-    <string name="permission_readfeeds_description">Разрешить приложениям чтение лент Sparse rss</string>
+    <string name="permission_readfeeds_description">Разрешить приложениям чтение лент Ace Shooting</string>
     <string name="permission_writefeeds">Разрешить запись</string>
-    <string name="permission_writefeeds_description">Разрешить приложениям запись лент Sparse rss</string>
+    <string name="permission_writefeeds_description">Разрешить приложениям запись лент Ace Shooting</string>
 </resources>

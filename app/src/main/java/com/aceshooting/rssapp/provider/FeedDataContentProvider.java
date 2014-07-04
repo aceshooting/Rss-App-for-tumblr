@@ -1,5 +1,5 @@
 /**
- * Sparse rss
+ * Ace Shooting
  *
  * Copyright (c) 2014 Ace Shooting
  *
@@ -45,9 +45,9 @@ import android.text.TextUtils;
 import com.aceshooting.rssapp.Strings;
 
 public class FeedDataContentProvider extends ContentProvider {
-	private static final String FOLDER = Environment.getExternalStorageDirectory()+"/sparserss/";
+	private static final String FOLDER = Environment.getExternalStorageDirectory()+"/aceshooting/";
 	
-	private static final String DATABASE_NAME = "sparserss.db";
+	private static final String DATABASE_NAME = "aceshooting.db";
 	
 	private static final int DATABASE_VERSION = 13;
 	
@@ -77,11 +77,11 @@ public class FeedDataContentProvider extends ContentProvider {
 	
 	private static final String EQUALS_ONE = "=1";
 
-	public static final String IMAGEFOLDER = Environment.getExternalStorageDirectory()+"/sparserss/images/"; // faster than FOLDER+"images/"
+	public static final String IMAGEFOLDER = Environment.getExternalStorageDirectory()+"/aceshooting/images/"; // faster than FOLDER+"images/"
 	
 	public static final File IMAGEFOLDER_FILE = new File(IMAGEFOLDER);
 	
-	private static final String BACKUPOPML = Environment.getExternalStorageDirectory()+"/sparserss/backup.opml";
+	private static final String BACKUPOPML = Environment.getExternalStorageDirectory()+"/aceshooting/backup.opml";
 	
 	private static UriMatcher URI_MATCHER;
 	
@@ -210,13 +210,13 @@ public class FeedDataContentProvider extends ContentProvider {
 
 		@Override
 		public synchronized SQLiteDatabase getWritableDatabase() {
-			File oldDatabaseFile = new File(Environment.getExternalStorageDirectory()+"/sparserss/sparserss.db");
+			File oldDatabaseFile = new File(Environment.getExternalStorageDirectory()+"/aceshooting/aceshooting.db");
 			
 			if (oldDatabaseFile.exists()) { // get rid of the old structure
 				SQLiteDatabase newDatabase = super.getWritableDatabase();
 				
 				try {
-					SQLiteDatabase oldDatabase  = SQLiteDatabase.openDatabase(Environment.getExternalStorageDirectory()+"/sparserss/sparserss.db", null, SQLiteDatabase.OPEN_READWRITE + SQLiteDatabase.CREATE_IF_NECESSARY);
+					SQLiteDatabase oldDatabase  = SQLiteDatabase.openDatabase(Environment.getExternalStorageDirectory()+"/aceshooting/aceshooting.db", null, SQLiteDatabase.OPEN_READWRITE + SQLiteDatabase.CREATE_IF_NECESSARY);
 					
 					Cursor cursor = oldDatabase.query(TABLE_ENTRIES, null, null, null, null, null, null);
 					

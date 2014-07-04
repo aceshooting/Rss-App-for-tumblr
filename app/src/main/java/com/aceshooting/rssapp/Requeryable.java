@@ -1,5 +1,5 @@
 /**
- * Sparse rss
+ * Ace Shooting
  *
  * Copyright (c) 2013 Stefan Handschuh
  *

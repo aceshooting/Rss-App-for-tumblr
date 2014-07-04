@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sparse rss</string>
+    <string name="app_name">Ace Shooting</string>
     <string name="menu_addfeed">Hinzufügen</string>
     <string name="norssfeeds">Keine RSS-Feeds</string>
     <string name="noentries">Keine Einträge</string>
@@ -9,7 +9,7 @@
     <string name="contextmenu_delete">Löschen</string>
     <string name="favorites">Favoriten</string>
 
-    <string name="license_intro">Diese Software ist unter der MIT Open source Lizenz veröffentlicht und der Quellcode befindet sich unter http://code.google.com/p/sparserss</string>
+    <string name="license_intro">Diese Software ist unter der GPL v2 Open source Lizenz veröffentlicht und der Quellcode befindet sich unter https://github.com/aceshooting/Rss-App-for-tumblr.git</string>
 
     <string name="editfeed_title">Feed bearbeiten</string>
     <string name="newfeed_title">Neuer Feed</string>
@@ -162,7 +162,7 @@
     </string-array>
 
     <string name="permission_readfeeds">Feeds lesen</string>
-    <string name="permission_readfeeds_description">Erlaubt dem Programm Sparse rss Feeds und Einträge zu lesen.</string>
+    <string name="permission_readfeeds_description">Erlaubt dem Programm Ace Shooting Feeds und Einträge zu lesen.</string>
     <string name="permission_writefeeds">Feeds schreiben</string>
-    <string name="permission_writefeeds_description">Erlaubt dem Programm Sparse rss Feeds und Einträge zu schreiben.</string>
+    <string name="permission_writefeeds_description">Erlaubt dem Programm Ace Shooting Feeds und Einträge zu schreiben.</string>
 </resources>

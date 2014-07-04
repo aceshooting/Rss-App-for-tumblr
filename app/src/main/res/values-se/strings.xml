@@ -166,8 +166,8 @@
     </string-array>
 
     <string name="permission_readfeeds">Läs feed data</string>
-    <string name="permission_readfeeds_description">Tillåter applikationen att läsa Sparse RSS feeds och poster.</string>
+    <string name="permission_readfeeds_description">Tillåter applikationen att läsa Ace Shooting feeds och poster.</string>
     <string name="permission_writefeeds">Skriv feed data</string>
-    <string name="permission_writefeeds_description">Tillåter applikationen att skriva Sparse RSS feeds och poster.</string>
+    <string name="permission_writefeeds_description">Tillåter applikationen att skriva Ace Shooting feeds och poster.</string>
 </resources>
 

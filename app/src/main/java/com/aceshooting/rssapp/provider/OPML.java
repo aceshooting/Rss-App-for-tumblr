@@ -1,5 +1,5 @@
 /**
- * Sparse rss
+ * Ace Shooting
  *
  * Copyright (c) 2010-2012 Stefan Handschuh
  *
@@ -47,7 +47,7 @@ import android.util.Xml;
 import com.aceshooting.rssapp.Strings;
 
 public class OPML {
-	private static final String START = "<?xml version=\"1.0\" encoding=\"utf-8\"?><opml version=\"1.1\"><head><title>Sparse RSS export</title><dateCreated>";
+	private static final String START = "<?xml version=\"1.0\" encoding=\"utf-8\"?><opml version=\"1.1\"><head><title>Ace Shooting export</title><dateCreated>";
 	
 	private static final String AFTERDATE = "</dateCreated></head><body>";
 	

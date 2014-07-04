@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sparse rss</string>
+    <string name="app_name">Ace Shooting</string>
     <string name="menu_addfeed">加える</string>
     <string name="norssfeeds">RSSフィード無</string>
     <string name="noentries">記入しない</string>
@@ -8,7 +8,7 @@
     <string name="contextmenu_delete">消去</string>
     <string name="favorites">お気に入り</string>
 
-    <string name="license_intro">このソフトウェアのライセンスは、MIT　Licenseで公示されており、ソースコードは、http://code.google.com/p/sparserssにある</string>
+    <string name="license_intro">このソフトウェアのライセンスは、GPL v2　Licenseで公示されており、ソースコードは、https://github.com/aceshooting/Rss-App-for-tumblr.gitにある</string>
 
     <string name="editfeed_title">フィード編集</string>
     <string name="contextmenu_edit">編集</string>

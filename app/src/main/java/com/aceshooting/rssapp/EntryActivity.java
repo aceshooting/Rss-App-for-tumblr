@@ -1,5 +1,5 @@
 /**
- * Sparse rss
+ * Ace Shooting
  *
  * Copyright (c) 2014 Ace Shooting
  *

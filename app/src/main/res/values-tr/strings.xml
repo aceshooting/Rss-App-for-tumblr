@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sparse rss</string>
+    <string name="app_name">Ace Shooting</string>
     <string name="menu_addfeed">Besleme ekle</string>
     <string name="norssfeeds">Hiçbir RSS beslemesi yok</string>
     <string name="noentries">Hiçbir mesaj yok</string>
@@ -25,7 +25,7 @@
     <string name="menu_enablefeedsort">Besleme sıralamasını etkinleştir</string>
     <string name="menu_disablefeedsort">Besleme sıralamasını devre dışı bırak</string>
 
-    <string name="license_intro">Bu yazılım MIT özgür yazılım lisansı kapsamında yayınlanmıştır ve kaynak kodu şu adreste mevcuttur: http://code.google.com/p/sparserss</string>
+    <string name="license_intro">Bu yazılım GPL v2 özgür yazılım lisansı kapsamında yayınlanmıştır ve kaynak kodu şu adreste mevcuttur: https://github.com/aceshooting/Rss-App-for-tumblr.git</string>
 
     <string name="settings_category_refresh">Otomatik tazeleme</string>
     <string name="settings_enabled">Etkin</string>
